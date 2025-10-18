@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not PDFs
+!*.pdf
+
+# And not .gitignore itself
+!.gitignore
+
+# Don't ignore directories (so git can recurse into them)
+!*/
